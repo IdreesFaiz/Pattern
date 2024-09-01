@@ -1,4 +1,5 @@
 // Pattern ## 1
+document.write("1");
 for (let i = 0; i < 4; i++) {
   for (let j = 0; j < 5; j++) {
     document.write("*");
@@ -14,6 +15,7 @@ for (let i = 0; i < 4; i++) {
 document.write("<br><br><br>");
 
 // Pattern ## 2
+document.write("2");
 for (let i = 1; i < 6; i++) {
   for (let j = 0; j < 5; j++) {
     document.write(i);
@@ -30,6 +32,7 @@ for (let i = 1; i < 6; i++) {
 document.write("<br><br><br>");
 
 // Pattern ## 3
+document.write("3");
 for (let i = 1; i < 6; i++) {
   for (let j = 1; j < 6; j++) {
     document.write(j);
@@ -47,12 +50,63 @@ document.write("<br><br><br>");
 
 
 // Pattern ## 4
+document.write("4");
 for (let i = 5; i >= 1; i--) {
   for (let j = 1; j < 6; j++) {
-    document.write(i);
+    document.write(i); 
   }
   document.write("<br>");
 }
+//output
+// 55555
+// 44444
+// 33333
+// 22222
+// 11111
+
+
+document.write("<br><br><br>");
+
+
+
+// Pattern ## 5
+document.write("5");
+for (let i = 1; i < 5; i++) {
+  for (let j = 5; j >= 1; j--) {
+    document.write(j);
+  }
+  document.write("<br>");
+}
+document.write("<br><br><br>");
+//output
+// 54321
+// 54321
+// 54321
+// 54321
+
+
+// Pattern ## 6
+document.write("6");
+var count = 1
+for (let i = 1; i < 6; i++) {
+  for (let j = 1; j < 6; j++) {
+    document.write(count);
+    count++
+  }
+  document.write("<br>");
+}
+document.write("<br><br><br>");
+//output
+// 12345
+// 678910
+// 1112131415
+// 1617181920
+// 2122232425
+
+
+
+// Pattern ## 7
+document.write("7");
 
 
 
