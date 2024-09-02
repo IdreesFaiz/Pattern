@@ -106,7 +106,23 @@ document.write("<br><br><br>");
 
 
 // Pattern ## 7
-document.write("7");
+document.write("7" +"<br>");
+
+var count = 2;
+for (let i = 1; i < 6; i++) {
+  for (let j = 1; j < 6; j++) {
+    document.write(count);
+    count+=2;
+  }
+  document.write("<br>");
+}
+document.write("<br><br><br>");
+//output
+// 13579
+// 1113151719
+// 2123252729
+// 3133353739
+// 4143454749
 
 
 
