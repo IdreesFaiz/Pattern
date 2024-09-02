@@ -148,12 +148,28 @@ document.write("<br><br><br>");
 document.write("9" +"<br>");
 for (let i = 1; i < 6; i++) {
   for (let j = 1; j < 4; j++) {
-    document.write(i);
+    document.write(j * i);
   }
   document.write("<br>");
 }
 document.write("<br><br><br>");
 
+
+
+
+
+
+
+var count = 1
+ 
+for (let i = 1; i < 6; i++) {
+  for (let j = 1; j < 5; j++) {
+    document.write(count)
+    count+=5
+  }
+  document.write("<br>");
+}
+document.write("<br><br><br>");
 
 // for (let i = 1; i < 5+2; i++) {
 //   for (let j = 0; j < i; j++) {
