@@ -126,6 +126,33 @@ document.write("<br><br><br>");
 
 
 
+// Pattern ## 8
+document.write("8" +"<br>");
+for (let i = 1; i < 4; i++) {
+  for (let j = 1; j < 6; j++) {
+    document.write(i * j);
+  }
+  document.write("<br>");
+}
+document.write("<br><br><br>");
+// output
+// 12345;
+// 246810;
+// 3691215;
+
+
+
+
+
+// Pattern ## 9
+document.write("9" +"<br>");
+for (let i = 1; i < 6; i++) {
+  for (let j = 1; j < 4; j++) {
+    document.write(i);
+  }
+  document.write("<br>");
+}
+document.write("<br><br><br>");
 
 
 // for (let i = 1; i < 5+2; i++) {
