@@ -171,7 +171,7 @@ for (let i = 1; i < 6; i++) {
 }
 document.write("<br><br><br>");
 
-// for (let i = 1; i < 5+2; i++) {
+// for (let i = 1; i < 5; i++) {
 //   for (let j = 0; j < i; j++) {
 //     document.write("*");
 
