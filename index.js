@@ -158,7 +158,8 @@ document.write("<br><br><br>");
 
 
 
-
+// Pattern ## 10
+document.write("10" +"<br>");
 
 var count = 1
  
