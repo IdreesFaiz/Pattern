@@ -158,19 +158,7 @@ document.write("<br><br><br>");
 
 
 
-// Pattern ## 10
-document.write("10" +"<br>");
-
-var count = 1
  
-for (let i = 1; i < 6; i++) {
-  for (let j = 1; j < 5; j++) {
-    document.write(count)
-    count+=5
-  }
-  document.write("<br>");
-}
-document.write("<br><br><br>");
 
 // for (let i = 1; i < 5; i++) {
 //   for (let j = 0; j < i; j++) {
